@@ -1,0 +1,28 @@
+
+ /*超大PC屏幕下的专用样式*/
+ @media screen and (min-width:1200px) {
+    #app .login_container .login_form,#app .register_container .register_form{
+        width: 30%;
+    }
+ }
+ /*中等PC屏幕下的专用样式*/
+ @media screen and (min-width:992px) and (max-width: 1199px) {
+    #app .login_container .login_form,#app .register_container .register_form{
+        width: 40%;
+    }
+ }
+ /*PAD屏幕下的专用样式*/
+ @media screen and (min-width: 768px) and (max-width:991px ){
+    #app .login_container .login_form,#app .register_container .register_form{
+        width: 60%;
+    }
+ }
+ /*PHONE屏幕下的专用样式*/
+@media screen and (max-width:767px) {
+    #app .login_container .login_form,#app .register_container .register_form{
+        width: 100%;
+    }
+    #app .register_container .register_form{
+        margin-top: 2vh;
+    }
+}
